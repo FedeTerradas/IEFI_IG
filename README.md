@@ -1,46 +1,51 @@
-# IE - Interfaz Gráfica
+# IEFI - Interfaz Gráfica
 
 ## 📋 Descripción del Proyecto
 
-Este proyecto forma parte de la materia **Interfaz Grafica** y se enfoca en el desarrollo de mejorar la batalla aplicando herencia, polimorfismo, encapsulamiento, arrays y manipulación de Strings
+Este proyecto es parte de la materia **Interfaz Gráfica** y tiene como objetivo mejorar la batalla implementando una arquitectura **MVC (Modelo-Vista-Controlador)**, con énfasis en el uso de **herencia**, **polimorfismo**, **encapsulamiento**, **arrays** y **manipulación de Strings**. 
 
-Video Explicativo
+A través de una interfaz interactiva, se busca proporcionar una experiencia de juego dinámica, integrando funcionalidades de configuración de personajes, estadísticas y almacenamiento de partidas.
 
-https://youtu.be/fxeXCnW-tzI
+**Objetivo del Proyecto:**
+- Reestructurar el proyecto original a arquitectura **MVC**.
+- Implementar ventanas de configuración y un sistema de reporte completo.
+- Añadir un sistema de persistencia de datos.
+
+**Video Explicativo:**
+[Enlace al video](#)
 
 ## 👥 Integrantes del Equipo
 
-- **[Joaquin Ballesteros]** - [Ataque Supremo/Villano] Prompts: https://chatgpt.com/share/68d6a405-7c84-8004-9a09-123f9fa66cb7
-- **[Federico Terradas]** - [Ataque Supremo/Heroe]  Prompts: https://claude.ai/share/dd041a24-b8ee-40a2-b069-a28dba2612ab https://chatgpt.com/share/68d82961-a7dc-8002-94da-dd9f62cb9e7a https://claude.ai/share/dcb3e73e-1a2b-4d16-bdf9-da447fc37825
-- **[Mateo Bertello]** - [Historial Batallas/Metodos]  Prompts: https://g.co/gemini/share/64e50ca773e6
-- **[Mateo Paredes]** - [Historial/Batallas/Metodos]
-- **[Lucas Barberis]** - [Reporte Final de la batalla] (trabajo con federico medina)
-- **[Federico Medina]** - [Reporte Final de la batalla]
-- **[Emanuel Ferrerya]** - [Apodos y validación]
-- **[Tomas Mondino]** - [Apodos y validación]
+- **[Joaquin Ballesteros]** - 
+- **[Federico Terradas]** - 
+- **[Mateo Bertello]** - 
+- **[Emanuel Ferrerya]** - 
 
+## 🔨 Funcionalidades Implementadas
 
-**🔨 Trabajando en IE - Interfaz Gráfica**
-
-El proyecto se encuentra actualmente en desarrollo. Se están implementando las funcionalidades de Ataque Supremo, Historial de Batallas, Sistemas de Apodos y Validacion, Sistema de Reportes
-
-![Pantallazo del juego](img/captura.png)
-
+- Reestructuración del proyecto a arquitectura **MVC**.
+- **Ventana de Configuración Inicial**: Permite registrar jugadores, asignar características y validar configuraciones.
+- **Ventana Principal de Juego**: Información dinámica sobre el estado de los personajes, estadísticas y eventos en la batalla.
+- **Reporte Final**: Resumen con estadísticas detalladas, ranking y el historial de batallas.
+- **Persistencia de Datos**: Guardado y carga de partidas usando archivos de texto.
 
 ## 📁 Estructura del Proyecto
 
-```
 IGIE1/
-├── src/IE.java
+├── src/
+│ ├── batalla/
+│ │ ├── modelo/
+│ │ ├── vista/
+│ │ └── controlador/
+│ ├── Main.java
+├── README.md
 ├── img/
-└── README.md
-```
 
 ## 🚀 Instalación y Uso
 
 ```bash
 # Clonar el repositorio
-git clone https://github.com/JoakoBallesteros/IGIE1.git
+git clone https://github.com/FedeTerradas/IEFI_IG.git
 
 # Navegar al directorio
 cd IGIE1
