@@ -33,13 +33,12 @@ A través de una interfaz interactiva, se busca proporcionar una experiencia de 
 
 IGIE1/
 ├── src/
-│ ├── batalla/
-│ │ ├── modelo/
-│ │ ├── vista/
-│ │ └── controlador/
-│ ├── Main.java
-├── README.md
+│   └── batalla/
+│       ├── modelo/
+│       ├── vista/
+│       └── controlador/
 ├── img/
+└── README.md
 
 ## 🚀 Instalación y Uso
 
